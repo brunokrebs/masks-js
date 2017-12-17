@@ -4,7 +4,7 @@
   "description": "A NPM package that exports functions to mask values.",
   "main": "build/index.js",
   "scripts": {
-    "build": "npm run lint && babel ./src -d ./lib",
+    "build": "babel ./src -d ./lib",
     "lint": "eslint ./src",
     "test": "nyc mocha --require babel-core/register",
     "prepublishOnly": "npm run build"
