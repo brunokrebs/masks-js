@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+- '6'
+deploy:
+  provider: npm
+  email: krebs.bruno@gmail.com
+  api_key:
+    secure: As7OktzBWBWDBRTFsw8LvVeMMm/eaZhduePjDqlAfbsL5i8/8h0/eqi8+NFiOdnnajxzbsu9VMLQQYwPLBFOWm1vMI+COcMLNzOvVRA9AVOeNYkMTVyZsl4bs2pToEbTAv6OQiqWk5m2UP1QyPq5+y+baT2xBiMtxFIaS001JI2ZXgfzWUANHpS1NpITxYmzZ1CDxpK+HzULD/JiBAC4rMwYOGdOU3SqEe03VYuW4eF8blnRE/0wURi6ZQhG9J18YwnkekLlIdt/etJs/wTBy9NI5TEDAnSfzv38n7f8St+E0Vv9CKng9sA0OZ8DiXpdfxPhObwUD3mT5vp7KYTtpD0wTH1XwYjOaoYvAk5ogug1RJqzbt5KkI1W7MXF4vTMzC/rfvA8UYcfZI6zWLwYZ3fe27hCEW9IpcLXE+GIn4g6UZFuOMV6BMpYkhZMoRa6NiViPDu5Bv6kDW3k6azeC9RjP+97jMyAnT7zOjf2i5zf/avrKq2zFuuP0c3ptYfdTZntPvgSybHrw8UIHXm82NxO8cM2TdaHRymKZNLgDzz0wTqwWxFrEdDqfjs9laNdIxnxa915OA0o65tsTMSCf9xjeyD3ioD1X0PBM6RKN3gYwOXWrsl0999eq9MPY51PQVmRXja2KDOz7XOg6WeD6h+wTqRORxUhzQe4Jfh3dv4=
+  on:
+    tags: true
+    repo: brunokrebs/masks-js
