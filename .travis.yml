@@ -4,6 +4,7 @@ node_js:
 before_deploy:
 - npm run build
 deploy:
+  skip_cleanup: true
   provider: npm
   email: krebs.bruno@gmail.com
   api_key:
