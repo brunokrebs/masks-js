@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - node
 before_deploy:
-- npm i
+- npm run build
 deploy:
   provider: npm
   email: krebs.bruno@gmail.com
