@@ -9,6 +9,7 @@ const testSamples = [
   { input: 'abcdefghij', expectedResult: 'abcdefghij', description: 'should return pristine value when receiving "abcdefghij"' },
   { input: '1234567890', expectedResult: '(123) 456-7890', description: 'should return (123) 456-7890' },
   { input: '5431260987', expectedResult: '(543) 126-0987', description: 'should return (543) 126-0987' },
+  { input: '54312609876', expectedResult: '(543) 126-09876', description: 'should return (543) 126-09876' },
 ];
 
 describe('Array', () => {
